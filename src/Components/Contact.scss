@@ -1,0 +1,39 @@
+.contact{
+
+    margin-top: 100px;
+
+    hr{
+        width: 30%;
+    }
+    ul{
+        list-style: none;
+        display: flex;
+        font-size:24px;
+        justify-content:space-evenly;
+        
+        li{
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            a{
+                text-decoration: none;
+                color: white;
+
+            }
+        }
+    }
+
+    .card{
+        .contact__info{
+            margin: 20px;
+            .contact__info-title{
+                margin: 10px;
+                .contact__info-text{
+                    font-size: 20px;
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+
+}
