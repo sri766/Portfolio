@@ -9,9 +9,14 @@ import Project from './Project';
 //component
 import Contact from '../Components/Contact';
 import Navbar from '../Components/Navbar'
-
+import { useEffect } from 'react';
 
 const Home = () => {
+
+  useEffect(() => {
+    // 👇️ scroll to top on page load
+    window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+  }, []);
   return (
     <>
     <div className='Home'>
@@ -33,8 +38,14 @@ const Home = () => {
       </div>
       <Navbar />
       <div className='contactMe'>
+      <button className='btn'
+        onClick={() => {
+          window.scrollTo({top: 5000, right: 5000, behavior: 'smooth'});
+        }}
+      >
         <img src="/images/email.png" alt='email'></img>
         <p>Contact Me</p>
+      </button>
       </div>
       <div className='circle1'>
         <img src='/images/Ellipse 1.svg' alt="circle1"></img>

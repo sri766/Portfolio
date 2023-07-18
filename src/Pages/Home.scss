@@ -38,23 +38,32 @@
         align-items: center;
         border: 2px solid white;
         cursor: pointer;
-        img{
-            height: 30px;
-            width: 30px;
-            margin: 10px;
-            justify-content: space-evenly;
-            
-        }
-        p{
-            font-size: 18px;
-            margin: 10px;
-            font-family: "poppins",sans-serif;
-            font-weight: 600;
-        }
-        &:hover{
-            background-color: rgb(255, 255, 255);
-            backdrop-filter: blur(2px);
-            color: black;
+        
+        .btn{
+            background:none;
+            height: 50px;
+            width: 200px;
+            border:none;
+            color: white;
+            display:flex;
+            cursor: pointer;
+            padding: 10px 20px;
+            align-items: center;
+            img{
+                height: 30px;
+                width: 30px;
+                
+            }
+            p{
+                font-size: 15px;
+                margin: 10px;
+                font-family: "poppins",sans-serif;
+                font-weight: 600;
+            }
+            &:hover{
+                background-color: rgb(255, 255, 255);
+                color: black;
+            }
         }
     }
 
