@@ -1,0 +1,110 @@
+.project{
+    height: 100vh;
+    margin-top: 120px;
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: 700;
+    .header{
+        height: 100px;
+        border-radius: 10px;
+        margin: 50px;
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+          img{
+             height: 100px;
+             border-radius: 10px;
+             position: relative;
+             align-items: center;
+          }
+    }
+
+    .projects{
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+        .projectCard1{
+            height: 400px;
+            width: 500px;
+            .projectImg1{
+                img{
+                    height: 300px;
+                    width: 400px;
+                }
+            }
+            .projectContent1{
+                height: 100px;
+                border-radius: 10px;
+                display: flex;
+                justify-content: center;
+                align-content: center;
+                p{
+                    color: white;
+                    width: 280px;
+                }
+
+                .btn{
+                    border: none;
+                    background-color: blue;
+                    color: white;
+                    height: 50px;
+                    border-radius: 10px;
+                    padding: 10px 20px;
+                    margin-top: 12px;
+
+                    a{
+                        color: white;
+                        font-weight: 700;
+                        font-family: 'poppins',sans-serif;
+                        text-decoration: none;
+                    }
+                    &:hover{
+                        box-shadow: 7px 7px rgb(255, 255, 255, 0.1);
+                        
+                    }
+                }
+            }
+        }
+        .projectCard2{
+            height: 400px;
+            width: 500px;
+            
+            .projectImg2{
+                img{
+                    height: 300px;
+                    width: 400px;
+                }
+            }
+            .projectContent2{       
+                height: 100px;
+                border-radius: 10px;
+                display: flex;
+                justify-content: center;
+                align-content: center;
+                p{
+                    color: white;
+                    width: 280px;
+                }
+                .btn{
+                    border: none;
+                    background-color: blue;
+                    color: white;
+                    height: 50px;
+                    border-radius: 10px;
+                    padding: 10px 20px;
+                    margin-top: 12px;
+
+                    a{
+                        color: white;
+                        font-weight: 700;
+                        font-family: 'poppins',sans-serif;
+                        text-decoration: none;
+                    }
+                    &:hover{
+                        box-shadow: 7px 7px rgb(255, 255, 255, 0.1);
+                        
+                    }
+                }
+            }
+        }
+    }
+}
