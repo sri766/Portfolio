@@ -1,10 +1,12 @@
 import React from 'react'
 import './Home.scss'
+import { motion } from 'framer-motion';
 import { Typewriter } from 'react-simple-typewriter';
 
 import About from './About';
 import Skill from './Skill';
 import Project from './Project';
+
 //component
 import Contact from '../Components/Contact';
 import Navbar from '../Components/Navbar'
@@ -15,24 +17,47 @@ const Home = () => {
 
   const [mousePosition, setMousePosition] = useState(
     {
-      x: null,
-      y: null
+      x: 0,
+      y: 0
     }
   );
 
 
   useEffect(() => {
     // 👇️ scroll to top on page load
+
     window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
 
+    // 👇️ cursor effect
+    const mousemove = e => {
+      setMousePosition({
+        x: e.clientX,
+        y: e.clientY
+      });
+    }
+    window.addEventListener("mousemove", mousemove);
+
+    return () => {
+      window.removeEventListener("mousemove", mousemove);
+    }
+    
+
   }, []);
+
+  const variants = {
+    default: {
+      x: mousePosition.x - 16,
+      y: mousePosition.y - 16,
+    }
+
+  }
   return (
     <>
     <div className='Home'>
     <div className='profileImage'>
         <img src="/images/pp.png" alt='profile'/>
     </div>
-    <div className='cursor'/>
+    <motion.div className='cursor' variants ={variants} animate="default"/>
       <div className='intro'>
         <h1>Hello👋<br/> I'm Srisanth Seth</h1>
         <br/>
