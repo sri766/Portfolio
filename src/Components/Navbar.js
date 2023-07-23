@@ -42,9 +42,9 @@ const Navbar = () => {
         }}
 
         style={{
-          background:'none',
-          border: 'none',
           
+          border: 'none',
+          background:'none',
         }}
       >
         <img src="/images/projects.svg" alt="homeIcon"></img>

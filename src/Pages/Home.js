@@ -2,27 +2,37 @@ import React from 'react'
 import './Home.scss'
 import { Typewriter } from 'react-simple-typewriter';
 
-
 import About from './About';
 import Skill from './Skill';
 import Project from './Project';
 //component
 import Contact from '../Components/Contact';
 import Navbar from '../Components/Navbar'
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 
 const Home = () => {
+
+
+  const [mousePosition, setMousePosition] = useState(
+    {
+      x: null,
+      y: null
+    }
+  );
+
 
   useEffect(() => {
     // 👇️ scroll to top on page load
     window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+
   }, []);
   return (
     <>
     <div className='Home'>
-      <div className='profileImage'>
+    <div className='profileImage'>
         <img src="/images/pp.png" alt='profile'></img>
       </div>
+      <div className='cursor' ></div>
       <div className='intro'>
         <h1>Hello👋<br/> I'm Srisanth Seth</h1>
         <br/>

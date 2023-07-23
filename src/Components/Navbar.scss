@@ -4,10 +4,21 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding: 50px 120px;
+    padding: 30px 100px;
     height: 100vh;
+
     img{
         cursor: pointer;
         height: 40px;
+
+
+        &:hover{
+            transform: scale(1.2);
+            background-color: rgba(173, 173, 173, 0.476);
+            border-radius: 10px;
+            cursor: pointer;
+        }
     }
+
+
 }
