@@ -30,9 +30,9 @@ const Home = () => {
     <>
     <div className='Home'>
     <div className='profileImage'>
-        <img src="/images/pp.png" alt='profile'></img>
-      </div>
-      <div className='cursor' ></div>
+        <img src="/images/pp.png" alt='profile'/>
+    </div>
+    <div className='cursor'/>
       <div className='intro'>
         <h1>Hello👋<br/> I'm Srisanth Seth</h1>
         <br/>

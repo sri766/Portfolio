@@ -16,6 +16,8 @@
              position: relative;
              align-items: center;
              justify-content: center;
+
+             
           }
     }
 
@@ -41,6 +43,10 @@
                     img{
                         height: 100px;
                         width: 100px;
+
+                        &:hover{
+                            transform: scale(1.2);
+                         }
                     }
                 }
             }
@@ -55,6 +61,10 @@
                 img{
                     height: 150px;
                     width: 150px;
+
+                    &:hover{
+                        transform: scale(1.2);
+                     }
                 }
 
             }
@@ -62,6 +72,10 @@
                 img{
                     height: 150px;
                     width: 150px;
+
+                    &:hover{
+                        transform: scale(1.2);
+                     }
                 }
             }
         }
@@ -77,6 +91,10 @@
                 img{
                     height: 150px;
                     width: 150px;
+
+                    &:hover{
+                        transform: scale(1.2);
+                     }
                 }
             }
             
@@ -88,6 +106,11 @@
                 img{
                     height: 120px;
                     width: 120px;
+                    
+                    &:hover{
+                        transform: scale(1.2);
+                     }
+
                 }
             }
         }
