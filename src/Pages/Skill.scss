@@ -1,5 +1,5 @@
 .skill{
-    height: 100%;
+    height: 100vh;
     font-family: 'Julius Sans One', sans-serif;
     font-weight: 700;
     padding: 0 20px 20px 0;
@@ -25,6 +25,7 @@
         margin-top: 20px;
         display: flex;
         justify-content: space-evenly;
+        height: 60%;
         .container{
             height: 100px;
             margin-left: 100px;
@@ -59,8 +60,8 @@
             gap: 15px;
             .docker{
                 img{
-                    height: 150px;
-                    width: 150px;
+                    height: 120px;
+                    width: 120px;
 
                     &:hover{
                         transform: scale(1.2);
@@ -70,8 +71,8 @@
             }
             .react{
                 img{
-                    height: 150px;
-                    width: 150px;
+                    height: 120px;
+                    width: 120px;
 
                     &:hover{
                         transform: scale(1.2);
@@ -82,10 +83,10 @@
 
         .mid-skill{
             .kubernetes{
-                height: 150px;
-                width: 150px;
+                height: 120px;
+                width: 120px;
                 display: flex;
-                margin-left: 40px;
+                margin: 12px 0px 20px 40px;
                 justify-content: center;
                 align-items: center;
                 img{
@@ -102,7 +103,7 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                margin-top: 35px;
+                margin-top: 4rem;
                 img{
                     height: 120px;
                     width: 120px;

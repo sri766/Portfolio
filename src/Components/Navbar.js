@@ -23,9 +23,24 @@ const Navbar = () => {
       >
         <img src="/images/Home.svg" alt="homeIcon"></img>
       </button>
+
       <button
         onClick={() => {
-          window.scrollTo({top: 1080, left: 1080, behavior: 'smooth'});
+          window.scrollTo({top: 750, left: 750, behavior: 'smooth'});
+        }}
+
+        style={{
+          background:'none',
+          border: 'none',
+
+        }}
+      >
+        <img src="/images/information.png" alt="homeIcon"></img>
+      </button>
+
+      <button
+        onClick={() => {
+          window.scrollTo({top: 1500, left: 1500, behavior: 'smooth'});
         }}
 
         style={{
@@ -36,9 +51,11 @@ const Navbar = () => {
       >
         <img src="/images/skills.svg" alt="homeIcon"></img>
       </button>
+
+
       <button
         onClick={() => {
-          window.scrollTo({top: 1850, left: 1850, behavior: 'smooth'});
+          window.scrollTo({top: 2350, left: 2350, behavior: 'smooth'});
         }}
 
         style={{
@@ -49,6 +66,8 @@ const Navbar = () => {
       >
         <img src="/images/projects.svg" alt="homeIcon"></img>
       </button>
+
+      
       </div>
   )
 }

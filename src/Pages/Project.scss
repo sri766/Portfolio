@@ -30,6 +30,9 @@
                     height: 300px;
                     width: 400px;
                 }
+                &:hover{
+                    transform: scale(1.045);
+                }
             }
             .projectContent1{
                 height: 100px;
@@ -72,6 +75,9 @@
                 img{
                     height: 300px;
                     width: 400px;
+                }
+                &:hover{
+                    transform: scale(1.045);
                 }
             }
             .projectContent2{       

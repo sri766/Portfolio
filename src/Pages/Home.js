@@ -63,7 +63,7 @@ const Home = () => {
         <br/>
         <Typewriter className='type'
           words={['MERN Developer', 'DevOps Engineer', 'Figma Designer', 'Student @ NIT Rourkela']}
-          loop={5}
+          loop={12}
           cursor
           cursorStyle='_'
           typeSpeed={70}
