@@ -1,7 +1,7 @@
 import React from 'react'
 import './Home.scss'
 import { motion } from 'framer-motion';
-import { Typewriter } from 'react-simple-typewriter';
+
 
 import About from './About';
 import Skill from './Skill';
@@ -11,6 +11,7 @@ import Project from './Project';
 import Contact from '../Components/Contact';
 import Navbar from '../Components/Navbar'
 import { useEffect, useState } from 'react';
+import Type from '../Components/Type';
 
 const Home = () => {
 
@@ -54,33 +55,21 @@ const Home = () => {
   return (
     <>
     <div className='Home'>
-    <div className='profileImage'>
-        <img src="/images/pp.png" alt='profile'/>
-    </div>
-    <motion.div className='cursor' variants ={variants} animate="default"/>
-      <div className='intro'>
-        <h1>Hello👋<br/> I'm Srisanth Seth</h1>
-        <br/>
-        <Typewriter className='type'
-          words={['MERN Developer', 'DevOps Engineer', 'Figma Designer', 'Student @ NIT Rourkela']}
-          loop={12}
-          cursor
-          cursorStyle='_'
-          typeSpeed={70}
-          deleteSpeed={50}
-          delaySpeed={1000}
-        />
+      <div className='profileImage'>
+          <img src="/images/pp.png" alt='profile'/>
       </div>
+      <motion.div className='cursor' variants ={variants} animate="default"/>
+      <Type />
       <Navbar />
       <div className='contactMe'>
-      <button className='btn'
-        onClick={() => {
-          window.scrollTo({top: 5000, right: 5000, behavior: 'smooth'});
-        }}
-      >
+        <button className='btn'
+            onClick={() => {
+              window.scrollTo({top: 5000, right: 5000, behavior: 'smooth'});
+            }}
+        >
         <img src="/images/email.png" alt='email'></img>
         <p>Contact Me</p>
-      </button>
+        </button>
       </div>
       <div className='circle1'>
         <img src='/images/Ellipse 1.svg' alt="circle1"></img>

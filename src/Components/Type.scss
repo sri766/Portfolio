@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+.intro{
+    position: absolute;
+    padding: 20px;
+    top: 300px;
+    left: 300px;
+    font-size: 30px;
+}
+
+@media only screen and (max-width: 760px){
+    .intro{
+        position: relative;
+        padding: 20px;
+        top: 300px;
+        left: 100px;
+        font-size: 30px;
+    }
+}
