@@ -17,7 +17,6 @@
              align-items: center;
              justify-content: center;
 
-             
           }
     }
 
@@ -32,13 +31,13 @@
             .row{
                 display: flex;
                 height: 120px;
-                gap: 80px;
-                
+                gap: 4rem;
+                justify-content: center;
                 .card{
                     display: flex;
                     height: 100px;
                     width: 100px;
-                    gap: 25px;
+                    gap: 4rem;
                     justify-content: center;
                     align-items: center;
                     img{
@@ -47,73 +46,87 @@
 
                         &:hover{
                             transform: scale(1.2);
-                         }
+                        }
                     }
                 }
             }
         }
     
-        .major-skill{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 15px;
-            .docker{
-                img{
-                    height: 120px;
-                    width: 120px;
-
-                    &:hover{
-                        transform: scale(1.2);
-                     }
-                }
-
-            }
-            .react{
-                img{
-                    height: 120px;
-                    width: 120px;
-
-                    &:hover{
-                        transform: scale(1.2);
-                     }
-                }
-            }
-        }
-
-        .mid-skill{
-            .kubernetes{
-                height: 120px;
-                width: 120px;
-                display: flex;
-                margin: 12px 0px 20px 40px;
-                justify-content: center;
-                align-items: center;
-                img{
-                    height: 150px;
-                    width: 150px;
-
-                    &:hover{
-                        transform: scale(1.2);
-                     }
-                }
-            }
-            
-            .jenkins-python{
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                margin-top: 4rem;
-                img{
-                    height: 120px;
-                    width: 120px;
-                    
-                    &:hover{
-                        transform: scale(1.2);
-                     }
-
-                }
-            }
+    }
+}
+@media screen and (max-width: 760px) {
+    .skill{
+        .content{
+            padding: 2rem;
+            width: 60%;
+            display: block;
+            flex-direction: row;
+            padding: 0.635rem;
+        
         }
     }
 }
+
+
+// .major-skill{
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     gap: 15px;
+//     .docker{
+//         img{
+//             height: 120px;
+//             width: 120px;
+
+//             &:hover{
+//                 transform: scale(1.2);
+//              }
+//         }
+
+//     }
+//     .react{
+//         img{
+//             height: 120px;
+//             width: 120px;
+
+//             &:hover{
+//                 transform: scale(1.2);
+//              }
+//         }
+//     }
+// }
+
+// .mid-skill{
+//     .kubernetes{
+//         height: 120px;
+//         width: 120px;
+//         display: flex;
+//         margin: 12px 0px 20px 40px;
+//         justify-content: center;
+//         align-items: center;
+//         img{
+//             height: 150px;
+//             width: 150px;
+
+//             &:hover{
+//                 transform: scale(1.2);
+//              }
+//         }
+//     }
+    
+//     .jenkins-python{
+//         display: flex;
+//         align-items: center;
+//         justify-content: center;
+//         margin-top: 4rem;
+//         img{
+//             height: 120px;
+//             width: 120px;
+            
+//             &:hover{
+//                 transform: scale(1.2);
+//              }
+
+//         }
+//     }
+// }

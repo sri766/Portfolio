@@ -1,19 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
 
-.intro{
+.intro {
     position: absolute;
     padding: 20px;
     top: 300px;
     left: 300px;
     font-size: 30px;
-}
-
-@media only screen and (max-width: 760px){
-    .intro{
-        position: relative;
-        padding: 20px;
-        top: 300px;
-        left: 100px;
+    .type{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
         font-size: 30px;
+        color: white;
     }
 }
+
+@media only screen and (max-width: 1200px) {
+    .intro {
+        position: static;
+        padding: 10px; /* Adjust padding for smaller screens */
+        margin: 20px auto; /* Center align the element horizontally */
+        text-align: center; /* Center align text */
+        font-size: 24px;
+    }
+}
+

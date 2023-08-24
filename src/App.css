@@ -6,6 +6,7 @@
   overflow: hidden;
   background-color: #1F0047;
   color: white;
+  z-index: -1;
 }
 
 .App-logo {
