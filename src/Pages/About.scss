@@ -2,19 +2,20 @@
    height: 100vh;
    font-family: 'Julius Sans One', sans-serif;
    font-weight: 400;
-   text-align: center;
-   hr{
-      font-size: 25px;
-      width: 30%;
+   h1{
+      z-index: 4;
+      font-size: 2rem;
    }
+   
   .content{
       display: flex;
       justify-content: center;
+      padding: 1rem;
    p{
       font-family: 'poppins', sans-serif;
       font-weight: 700;
-      font-size: 25px;
-      width: 80%;
+      width: 70%;
+      text-align: justify;
       
    }
   }
@@ -32,6 +33,35 @@
          border-radius: 10px;
          position: relative;
          align-items: center;
+      }
+   }
+}
+
+@media screen and (max-width: 760px){
+   .about{
+      padding: 2px 4px;
+      margin-bottom: 6rem;
+
+      .content{
+         width: 100%;
+         p{
+            font-size: 70%;
+         }
+      }
+   }
+   
+}
+
+@media screen and (max-width: 460px) {
+   .about{
+      padding: 2px 4px;
+      margin-bottom: 12rem;
+
+      .content{
+         width: 100%;
+         p{
+            font-size: 65%;
+         }
       }
    }
 }

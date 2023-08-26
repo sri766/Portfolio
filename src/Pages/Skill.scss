@@ -1,132 +1,78 @@
-.skill{
+.skill {
     height: 100vh;
     font-family: 'Julius Sans One', sans-serif;
     font-weight: 700;
     padding: 0 20px 20px 0;
-    .header{
+  
+    .header {
+      height: 100px;
+      border-radius: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 50px;
+  
+      img {
         height: 100px;
         border-radius: 10px;
-        display: flex;
-        justify-content: center;
+        position: relative;
         align-items: center;
-        gap: 50px;
-          img{
-             height: 100px;
-             border-radius: 10px;
-             position: relative;
-             align-items: center;
-             justify-content: center;
-
-          }
+        justify-content: center;
+      }
     }
-
-    .content{
-        margin-top: 20px;
-        display: flex;
-        justify-content: space-evenly;
-        height: 60%;
-        .container{
-            height: 100px;
-            margin-left: 100px;
-            .row{
-                display: flex;
-                height: 120px;
-                gap: 4rem;
-                justify-content: center;
-                .card{
-                    display: flex;
-                    height: 100px;
-                    width: 100px;
-                    gap: 4rem;
-                    justify-content: center;
-                    align-items: center;
-                    img{
-                        height: 100px;
-                        width: 100px;
-
-                        &:hover{
-                            transform: scale(1.2);
-                        }
-                    }
+  
+    .content {
+      margin-top: 4rem;
+      display: grid;
+      justify-content: center;
+      align-items: center;
+      gap: 2rem;
+        .row {
+            display: grid;
+            width: 80%;
+            grid-template-columns: repeat(5, 1fr); // Show 4 columns on desktop
+            gap: 4rem;
+  
+          .card {
+            display: flex;
+            height: 5rem;
+            width: 5rem;
+            gap: 1rem;
+            justify-content: center;
+            align-items: center;
+  
+            img {
+              height: 5rem;
+              width: 5rem;
+  
+              &:hover {
+                transform: scale(1.2);
+              }
+            }
+          }
+        }
+    }
+  }
+  
+  @media screen and (max-width: 760px) {
+    .skill {
+        width: 100%;
+      .content {
+        .row{
+            grid-template-columns: repeat(5, 1fr);
+            row-gap: 2rem;
+            column-gap: 2rem;
+            .card{
+                height: 3rem;
+                width: 3rem;
+                gap: 1rem;
+                img{
+                    height: 3rem;
+                    width: 3rem;
                 }
             }
         }
-    
-    }
-}
-@media screen and (max-width: 760px) {
-    .skill{
-        .content{
-            padding: 2rem;
-            width: 60%;
-            display: block;
-            flex-direction: row;
-            padding: 0.635rem;
-        
         }
     }
-}
-
-
-// .major-skill{
-//     display: flex;
-//     flex-direction: column;
-//     align-items: center;
-//     gap: 15px;
-//     .docker{
-//         img{
-//             height: 120px;
-//             width: 120px;
-
-//             &:hover{
-//                 transform: scale(1.2);
-//              }
-//         }
-
-//     }
-//     .react{
-//         img{
-//             height: 120px;
-//             width: 120px;
-
-//             &:hover{
-//                 transform: scale(1.2);
-//              }
-//         }
-//     }
-// }
-
-// .mid-skill{
-//     .kubernetes{
-//         height: 120px;
-//         width: 120px;
-//         display: flex;
-//         margin: 12px 0px 20px 40px;
-//         justify-content: center;
-//         align-items: center;
-//         img{
-//             height: 150px;
-//             width: 150px;
-
-//             &:hover{
-//                 transform: scale(1.2);
-//              }
-//         }
-//     }
-    
-//     .jenkins-python{
-//         display: flex;
-//         align-items: center;
-//         justify-content: center;
-//         margin-top: 4rem;
-//         img{
-//             height: 120px;
-//             width: 120px;
-            
-//             &:hover{
-//                 transform: scale(1.2);
-//              }
-
-//         }
-//     }
-// }
+  }
+  

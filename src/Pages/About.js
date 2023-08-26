@@ -8,11 +8,18 @@ const About = () => {
         <h1>About</h1>
       </div>
       <div className='content'>
-        <p>Hey! This is Srisanth Seth. A Undergrad student at
-            National institute of Technology, Rourkela.
-            I am Currently in 3rd year of  my B.Tech Degree in Industrial Design.
-            I am interested in Front-end development and DevOps. It's really 
-            attracts me how websites, web apps get deployed on servers with CI/CD, Downtown Management, Microservices.
+      <p>
+            Greetings,
+            <br /><br />
+            I'm Srisanth Seth, an enthusiastic undergraduate at the National Institute of Technology, Rourkela. Currently in my third year of B.Tech studies in Industrial Design, I've developed a strong passion for Front-end Development and DevOps.
+            <br /><br />
+            The process of turning innovative ideas into functional websites and web applications, along with their seamless deployment using CI/CD, has truly captured my attention. I'm equally intrigued by the concepts of Downtown Management and Microservices, which play pivotal roles in creating efficient digital solutions.
+            <br /><br />
+            As I continue to learn and grow, I'm excited to explore the ever-evolving realms of technology. Join me on this journey as I strive to enhance user experiences and contribute to the world of Front-end Development and DevOps.
+            <br /><br />
+            Best regards,
+            <br />
+            Srisanth Seth
         </p>
       </div>
     </div>

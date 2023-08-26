@@ -8,7 +8,6 @@ const Skill = () => {
         <img src='/images/about04.png' alt='about'></img>
       </div>
       <div className='content'>
-        <div className='container'>
           <div className='row'>
             <div className='card'>
               <img src='images/html.png' alt='html'></img>
@@ -67,7 +66,6 @@ const Skill = () => {
               <div className='card'>
                 <img src='images/tailwind.png' alt='figma'></img>
               </div>
-          </div>
         </div>
       </div>
     </div>
