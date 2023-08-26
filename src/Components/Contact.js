@@ -26,7 +26,7 @@ const Contact = () => {
       </ul>
       <div class="card">
         <div class="contact__info">
-          <h3 class="contact__info-title">Let's talk about everything!</h3>
+          <h3 class="contact__info-title">Let's talk about Anything!</h3>
           <p class="contact__info-text">Don't like forms? Send me an  <a href="mailto:srisanthseth28@gmail.com"><img src='/images/email.png' alt='email' style={{ height:'2rem'}}></img></a><span class="contact__info-highlight"> Email</span>. 👋</p>
         </div>  
       </div>
