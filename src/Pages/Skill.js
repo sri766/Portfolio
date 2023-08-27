@@ -78,7 +78,7 @@ const Skill = () => {
               </div>
               <div className='card'>
                 <img src='images/aws1.svg' alt='js'></img> 
-                <span className='text'>aws1</span>
+                <span className='text'>aws</span>
  
               </div>
               <div className='card'>
