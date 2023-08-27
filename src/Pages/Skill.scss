@@ -35,6 +35,7 @@
   
           .card {
             display: flex;
+            flex-direction: column;
             height: 5rem;
             width: 5rem;
             gap: 1rem;
@@ -44,11 +45,18 @@
             img {
               height: 5rem;
               width: 5rem;
-  
-              &:hover {
-                transform: scale(1.2);
+            }
+            .text{
+              opacity: 0;
+              
+            }
+            &:hover {
+              transform: scale(1.2);
+              .text{
+                opacity: 1;
               }
             }
+
           }
         }
     }
@@ -57,19 +65,25 @@
   @media screen and (max-width: 760px) {
     .skill {
         width: 100%;
+        
       .content {
         .row{
-            grid-template-columns: repeat(5, 1fr);
+            grid-template-columns: repeat(3, 1fr);
             row-gap: 2rem;
             column-gap: 2rem;
             .card{
                 height: 3rem;
                 width: 3rem;
                 gap: 1rem;
+                
                 img{
                     height: 3rem;
                     width: 3rem;
                 }
+                .text{
+                  display: none;
+                }
+                
             }
         }
         }

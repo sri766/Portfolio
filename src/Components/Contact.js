@@ -8,20 +8,28 @@ const Contact = () => {
       <h1>Let's Connect</h1>
       <ul>
         <li>
-          <a href='https://twitter.com/SrisanthSeth' target="_blank" rel="noreferrer noopener"><span>Twitter</span></a>
-          <img src="./images/twitter.png" alt="twitter" style={{ height:'30px'}}></img>
+          <a href='https://twitter.com/SrisanthSeth' target="_blank" rel="noreferrer noopener">
+            <span>Twitter</span>
+            <img src="./images/twitter.png" alt="twitter" style={{ height:'35px'}} />
+          </a>
         </li>
         <li>
-          <a href='https://www.instagram.com/sri_santh._/' target="_blank" rel="noreferrer noopener"><span>Instagram</span></a>
-          <img src="./images/instagram.png" alt="instagram" style={{ height:'30px'}}></img>
+          <a href='https://www.instagram.com/sri_santh._/' target="_blank" rel="noreferrer noopener">
+            <span>Instagram</span>
+          <img src="./images/2.png" alt="instagram" style={{ height:'40px'}}/>
+          </a>
         </li>
         <li>
-          <a href='https://www.linkedin.com/in/srisanth-seth-51b54b225/' target="_blank" rel="noreferrer noopener"><span>Linkedin</span></a>
-          <img src="./images/linkedin.png" alt="linkedin" style={{ height:'30px'}}></img>
+          <a href='https://www.linkedin.com/in/srisanth-seth-51b54b225/' target="_blank" rel="noreferrer noopener">
+            <span>Linkedin</span>
+          <img src="./images/1.png" alt="linkedin" style={{ height:'40px'}}/>
+          </a>
         </li>
         <li>
-          <a href='https://github.com/sri766' target="_blank" rel="noreferrer noopener"><span>GitHub</span></a>
-          <img src="./images/github.png" alt="github" style={{ height:'30px'}}></img>
+          <a href='https://github.com/sri766' target="_blank" rel="noreferrer noopener">
+            <span>GitHub</span>
+            <img src="./images/3.png" alt="github" style={{ height:'40px'}}/>
+          </a>
         </li>
       </ul>
       <div class="card">
