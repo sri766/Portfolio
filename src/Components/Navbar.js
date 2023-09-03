@@ -22,6 +22,7 @@ const Navbar = () => {
         }}
       >
         <img src="/images/Home.svg" alt="homeIcon"></img>
+        <p>Home</p>
       </button>
 
       <button
@@ -36,6 +37,7 @@ const Navbar = () => {
         }}
       >
         <img src="/images/information.png" alt="homeIcon"></img>
+        <p>About</p>
       </button>
 
       <button
@@ -50,8 +52,8 @@ const Navbar = () => {
         }}
       >
         <img src="/images/skills.svg" alt="homeIcon"></img>
+        <p>Skills</p>
       </button>
-
 
       <button
         onClick={() => {
@@ -65,6 +67,7 @@ const Navbar = () => {
         }}
       >
         <img src="/images/projects.svg" alt="homeIcon"></img>
+        <p>Projects</p>
       </button>
 
       
