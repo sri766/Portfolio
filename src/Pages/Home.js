@@ -6,7 +6,7 @@ import { motion } from 'framer-motion';
 import About from './About';
 import Skill from './Skill';
 import Project from './Project';
-
+import Form from './Form';
 //component
 import Contact from '../Components/Contact';
 import Navbar from '../Components/Navbar'
@@ -86,6 +86,7 @@ const Home = () => {
     <Skill/>
     <Project/>
     <Contact/>
+    <Form/>
     </>
   )
 }

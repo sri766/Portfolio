@@ -23,7 +23,7 @@ const Project = () => {
           </div>
           <div className='projectContent2'>
             <p>E-commerce website with Strapi and Stripe</p>
-            <button className='btn'><a href='https://www.storetrend.me/'>View Project</a></button>
+            <button className='btn'><a href='https://github.com/sri766/StoreTrend'>View Project</a></button>
           </div>
         </div>
       </div>
